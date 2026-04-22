@@ -1,0 +1,333 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<meta name="description" content="Crowe Psychedelics — computational psychedelic drug discovery platform. DEA Schedule I application drafting, receptor profile screening, 29 PhD-grade expert agents. A division of Crowe Logic, Inc." />
+<title>Crowe Psychedelics — Computational Drug Discovery Platform</title>
+<link rel="stylesheet" href="assets/style.css" />
+</head>
+<body>
+
+<header class="top">
+  <div class="wrap">
+    <div class="brand">
+      <a href="/" class="brand-link">
+        <span class="brand-mark">◆</span>
+        <span class="brand-name">Crowe<span class="brand-accent"> Psychedelics</span></span>
+      </a>
+      <span class="brand-sub">A division of Crowe Logic, Inc.</span>
+    </div>
+    <nav>
+      <a href="#platform">Platform</a>
+      <a href="#products">Products</a>
+      <a href="#compounds">Compounds</a>
+      <a href="#agents">Agents</a>
+      <a href="#samples">Samples</a>
+      <a href="#contact" class="nav-cta">Contact</a>
+    </nav>
+  </div>
+</header>
+
+<section class="hero">
+  <div class="wrap">
+    <h1>Psychedelic drug discovery,<br/><span class="hero-accent">executed by PhD-grade agents.</span></h1>
+    <p class="lede">
+      We translate Schedule I compound research from a regulatory tangle into a
+      repeatable workflow. Our stack: a curated compound knowledge base, 29
+      expert agent personas grounded in real literature, and a DEA Schedule I
+      application drafting toolkit that cuts counsel review from eight hours to two.
+    </p>
+    <div class="cta-row">
+      <a href="#products" class="btn btn-primary">See the product tiers</a>
+      <a href="#samples" class="btn btn-ghost">Read sample outputs</a>
+    </div>
+    <div class="metrics">
+      <div class="metric"><span class="metric-n">15</span><span class="metric-l">compounds in the knowledge base</span></div>
+      <div class="metric"><span class="metric-n">29</span><span class="metric-l">PhD expert agents</span></div>
+      <div class="metric"><span class="metric-n">9</span><span class="metric-l">regulatory artifacts per reg-pack</span></div>
+      <div class="metric"><span class="metric-n">12</span><span class="metric-l">cultivar × strain profiles</span></div>
+    </div>
+  </div>
+</section>
+
+<section id="platform" class="slab slab-light">
+  <div class="wrap">
+    <h2 class="slab-h">The platform</h2>
+    <p class="slab-sub">
+      Built on CriOS Nova — Crowe Logic's quantum-enabled chemoinformatics engine
+      — and a 194-agent system specialized for psychedelic tryptamines,
+      phenethylamines, ergolines, and related scaffolds.
+    </p>
+    <div class="grid grid-3">
+      <div class="card">
+        <h3><span class="card-mark">▣</span> Compound knowledge base</h3>
+        <p>Curated records for 15 Schedule I and adjacent compounds, each with
+          real PubMed-cited receptor Ki values, metabolic pathways, drug
+          interactions, toxicology, and FDA status. Queryable by target
+          receptor, potency threshold, or compound class.</p>
+        <pre class="code">$ lfpsy screen --target 5-HT2A --max-ki 50
+LSD         Ki=2.9 nM
+Psilocin    Ki=4.6 nM
+Psilocybin  Ki=6.0 nM
+Baeocystin  Ki=18.5 nM
+…</pre>
+      </div>
+      <div class="card">
+        <h3><span class="card-mark">△</span> 29 expert agents</h3>
+        <p>24 Molecular Design specialists (Natural Product Chemist, AI-Driven
+          Designer, Fluorine Specialist, Scaffold Hopping Expert…) plus 3
+          Psychedelic Specialist personas grounded in real PMIDs and CFR text,
+          plus 2 Core orchestrators. Each agent ships as a reusable system
+          prompt backed by curated citations.</p>
+        <pre class="code">$ lfpsy agents list --division \
+    psychedelic_specialist
+psy_pharm_001  Dr. Evelyn Nakamura
+psy_reg_001    Dr. Catherine Mullen
+psy_clin_001   Dr. Jonathan Reyes</pre>
+      </div>
+      <div class="card">
+        <h3><span class="card-mark">◈</span> Cultivation intelligence</h3>
+        <p>6 Psilocybe species and 6 commercial <em>P. cubensis</em> strains
+          with peer-reviewed alkaloid profiles. Match a target profile
+          (e.g. high-psilocybin, low-baeocystin) to ranked cultivar×strain
+          candidates with predicted alkaloid content.</p>
+        <pre class="code">$ lfpsy cultivar-match \
+    --target-profile high-psilocybin,low-baeocystin
+1. P. cubensis — Tidal Wave   100  ψ=2.00%  ψn=1.47%
+2. P. cubensis — Penis Envy   100  ψ=1.34%
+3. P. cyanescens               96  ψ=1.31%</pre>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="products" class="slab">
+  <div class="wrap">
+    <h2 class="slab-h">Products</h2>
+    <p class="slab-sub">Three tiers. Each one buys down a specific class of
+      regulatory or scientific friction.</p>
+
+    <div class="grid grid-3 tiers">
+      <div class="tier">
+        <div class="tier-badge">Tier 1 — Subscription</div>
+        <h3>Logic Foundry Psy CLI</h3>
+        <p class="tier-price">$2,500<span>/month</span></p>
+        <ul>
+          <li>Full compound knowledge base access</li>
+          <li>29 expert agents invocable via CLI</li>
+          <li>Receptor screening and selectivity profiling</li>
+          <li>Cultivar matching with predicted alkaloid profiles</li>
+          <li>Unlimited queries, one named user</li>
+          <li>Ships as a Python package installable today</li>
+        </ul>
+        <p class="tier-tag">For: internal research teams at Schedule I
+          registered institutions, psychedelic biotech startups in discovery phase.</p>
+      </div>
+
+      <div class="tier tier-feature">
+        <div class="tier-badge tier-badge-feature">Tier 1 — Flat Fee</div>
+        <h3>DEA Schedule I reg-pack</h3>
+        <p class="tier-price">$25,000<span>/application</span></p>
+        <ul>
+          <li>9-artifact application packet draft</li>
+          <li>Cover letter, research protocol summary, security plan</li>
+          <li>3 operational SOPs (inventory, destruction, emergency response)</li>
+          <li>Facility diagram template + DEA Form 225 field map</li>
+          <li>Every artifact CFR-cited inline</li>
+          <li><code>[LEGAL REVIEW]</code> markers flag each ambiguity counsel must resolve</li>
+        </ul>
+        <p class="tier-tag">For: new registrants who need a submission-ready
+          draft without paying counsel to boilerplate. Saves a typical 6-8 hour
+          counsel review down to ~2.</p>
+      </div>
+
+      <div class="tier">
+        <div class="tier-badge">Tier 1 — Engagement</div>
+        <h3>Cultivation consulting</h3>
+        <p class="tier-price">$50,000<span>/engagement</span></p>
+        <ul>
+          <li>Facility-specific cultivation SOP authored to your substrate,
+            species, and target alkaloid profile</li>
+          <li>Cultivar selection matched to your clinical endpoint</li>
+          <li>Contamination monitoring protocol</li>
+          <li>Yield and potency benchmarks</li>
+          <li>Includes Logic Foundry Psy CLI access for engagement term</li>
+        </ul>
+        <p class="tier-tag">For: research facilities scaling psilocybin
+          mushroom cultivation beyond bench scale.</p>
+      </div>
+    </div>
+
+    <p class="aside">
+      <strong>Tier 2 (Q3 2026):</strong> CriOS Nova Psy API — on-demand receptor
+      binding prediction, ADMET profiling, and novel analog generation. $5K/mo per seat.
+      <strong>Tier 3 (2027):</strong> IND-support and DEA-registered compound
+      characterization services.
+    </p>
+  </div>
+</section>
+
+<section id="compounds" class="slab slab-light">
+  <div class="wrap">
+    <h2 class="slab-h">Knowledge base — 15 compounds</h2>
+    <p class="slab-sub">
+      Real pharmacology. Every receptor Ki traces to a PubMed citation.
+    </p>
+
+    <table class="ktable">
+      <thead><tr>
+        <th>#</th><th>Name</th><th>Class</th><th>5-HT2A Ki (nM)</th>
+        <th>Half-life</th><th>Schedule</th><th>FDA BT</th>
+      </tr></thead>
+      <tbody>
+        <tr><td>CP-001</td><td>Psilocybin</td><td>tryptamine</td><td>6.0</td><td>2.5 h</td><td>I</td><td>✓</td></tr>
+        <tr><td>CP-002</td><td>Psilocin</td><td>tryptamine</td><td>4.6</td><td>2.5 h</td><td>I</td><td></td></tr>
+        <tr><td>CP-003</td><td>Baeocystin</td><td>tryptamine</td><td>18.5</td><td>—</td><td>I</td><td></td></tr>
+        <tr><td>CP-006</td><td>DMT</td><td>tryptamine</td><td>127</td><td>0.25 h</td><td>I</td><td></td></tr>
+        <tr><td>CP-007</td><td>5-MeO-DMT</td><td>tryptamine</td><td>22</td><td>0.2 h</td><td>I</td><td>✓</td></tr>
+        <tr><td>CP-009</td><td>Mescaline</td><td>phenethylamine</td><td>5,500</td><td>6 h</td><td>I</td><td></td></tr>
+        <tr><td>CP-010</td><td>MDMA</td><td>entactogen</td><td>—<sup>*</sup></td><td>8 h</td><td>I</td><td>✓</td></tr>
+        <tr><td>CP-011</td><td>Ibogaine</td><td>iboga alkaloid</td><td>—<sup>†</sup></td><td>7.5 h</td><td>I</td><td></td></tr>
+        <tr><td>CP-012</td><td>LSD</td><td>ergoline</td><td>2.9</td><td>3.6 h</td><td>I</td><td></td></tr>
+        <tr><td>CP-013</td><td>Ketamine</td><td>arylcyclohexylamine</td><td>—<sup>‡</sup></td><td>2.5 h</td><td>III</td><td>✓</td></tr>
+        <tr><td>CP-014</td><td>Salvinorin A</td><td>neoclerodane</td><td>—<sup>§</sup></td><td>0.08 h</td><td>—</td><td></td></tr>
+        <tr><td>CP-015</td><td>2C-B</td><td>phenethylamine</td><td>26</td><td>1.5 h</td><td>I</td><td></td></tr>
+      </tbody>
+    </table>
+    <p class="footnote">
+      <sup>*</sup> MDMA acts via SERT/NET/DAT, not 5-HT2A.
+      <sup>†</sup> Ibogaine acts via NMDA, kappa-opioid, sigma-2.
+      <sup>‡</sup> Ketamine: NMDA antagonist.
+      <sup>§</sup> Salvinorin A: selective kappa-opioid agonist (Ki 1.9 nM).
+      <br/>Full records for all 15 compounds in the CLI: <code>lfpsy characterize --compound &lt;name&gt;</code>.
+    </p>
+  </div>
+</section>
+
+<section id="agents" class="slab">
+  <div class="wrap">
+    <h2 class="slab-h">29 PhD agents</h2>
+    <p class="slab-sub">Each agent is a curated system prompt with
+      specializations, a decision procedure, and grounding citations. Each one
+      can be invoked against Claude Opus via Azure AI Foundry (CroweLM Supreme).</p>
+
+    <div class="grid grid-3 roster">
+      <div class="card">
+        <h3>Molecular Design — 24</h3>
+        <p>Dr. Yuki Tanaka (Natural Products), Dr. Hiroshi Yamamoto (AI-Driven),
+           Dr. Carlos Rodriguez (Fluorine), Dr. Nina Volkova (Deuterium),
+           Dr. Michael Brown (Scaffold Hopping), Dr. Priya Sharma
+           (Polypharmacology), Dr. Thomas Mueller (Prodrugs), and 17 others.</p>
+      </div>
+      <div class="card card-feature">
+        <h3>Psychedelic Specialists — 3</h3>
+        <p><strong>Dr. Evelyn Nakamura</strong> — medicinal chemistry, 5-HT2A
+          bias, tryptamine SAR.</p>
+        <p><strong>Dr. Catherine Mullen</strong> — DEA Schedule I regulatory,
+          21 CFR 1301, Federal Analog Act.</p>
+        <p><strong>Dr. Jonathan Reyes</strong> — clinical psychopharmacology,
+          MEQ-30/5D-ASC, MAPP1/MAPP2 Phase 3 design.</p>
+      </div>
+      <div class="card">
+        <h3>Core Orchestration — 2</h3>
+        <p><strong>Dr. Michael B. Crowe</strong> — Crowe Logic methodology
+          (OBSERVE→DECOMPOSE→CONNECT→SYNTHESIZE→VALIDATE).</p>
+        <p><strong>Dr. Ben Crowe Coder</strong> — pipeline automation and
+          code generation across specialist divisions. The execution engine
+          paired with Dr. Michael B. Crowe's decomposition.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="samples" class="slab slab-light">
+  <div class="wrap">
+    <h2 class="slab-h">Sample outputs</h2>
+    <p class="slab-sub">
+      Real artifacts generated by the platform. Not marketing fluff —
+      download them, read them, show them to your counsel and your chemists.
+    </p>
+
+    <div class="grid grid-2 samples">
+      <a class="sample-card" href="reports/dr_nakamura_analog_design.md">
+        <div class="sample-tag">Agent report</div>
+        <h3>Dr. Nakamura: Three novel 5-HT2A agonist tryptamines</h3>
+        <p>Query: "Propose three novel 5-HT2A agonist tryptamines for TRD with
+          specific selectivity profile." Response includes SMILES, crystal
+          structure-guided rationale (PDB 6WHA/6WGT), predicted Ki with
+          interpolation basis, ADMET concerns, and freedom-to-operate
+          commentary. Grounded in PMIDs 27816818, 32699011, 28129538.</p>
+        <span class="sample-meta">12.7 KB · Markdown · CroweLM Supreme</span>
+      </a>
+
+      <a class="sample-card" href="reports/dr_mullen_schedule_i_guidance.md">
+        <div class="sample-tag">Agent report</div>
+        <h3>Dr. Mullen: Schedule I path for an AZ biotech startup</h3>
+        <p>Query: "Walk a Phoenix-based in-vitro biotech through DEA Schedule I
+          registration." Response covers researcher-vs-analytical-lab choice,
+          applicable 21 CFR 1301 sections, realistic 8-16 week timeline, top
+          three rejection risks with mitigations, IND-scope question, and
+          state-level AZ factors. 10 CFR citations, 6 [LEGAL REVIEW] markers.</p>
+        <span class="sample-meta">17.5 KB · Markdown · CroweLM Supreme</span>
+      </a>
+
+      <a class="sample-card sample-card-wide" href="reports/sample_regpack/00_README.md">
+        <div class="sample-tag">Reg-pack output</div>
+        <h3>Complete DEA Schedule I application packet (9 artifacts, 40 KB)</h3>
+        <p>A full sample reg-pack generated from a single intake YAML:
+          cover letter, research protocol summary, security plan (21 CFR
+          1301.71-76), three operational SOPs (inventory, destruction,
+          emergency), facility diagram template, and DEA Form 225 field map.
+          Every file watermarked "DRAFT — Legal review required."</p>
+        <span class="sample-meta">9 files · Markdown · Generated by lfpsy reg-pack</span>
+      </a>
+    </div>
+  </div>
+</section>
+
+<section id="contact" class="slab slab-dark">
+  <div class="wrap">
+    <h2 class="slab-h">Engage</h2>
+    <p class="slab-sub">Crowe Psychedelics is a division of Crowe Logic, Inc.
+      For partnership, licensing, or platform-access inquiries:</p>
+    <div class="contact-grid">
+      <div class="contact-block">
+        <h3>Michael Crowe, PhD</h3>
+        <p>Founder and Chief Scientific Officer<br/>Crowe Logic, Inc.</p>
+        <p>
+          <a href="mailto:michael@crowelogic.com">michael@crowelogic.com</a><br/>
+          <a href="https://crowelogic.com">crowelogic.com</a>
+        </p>
+      </div>
+      <div class="contact-block">
+        <h3>What we're looking for</h3>
+        <ul>
+          <li>Clinical-stage psychedelic biotechs wanting to deploy AI agents in discovery</li>
+          <li>Research institutions applying for DEA Schedule I registration</li>
+          <li>IRB-approved research protocols needing regulatory drafting support</li>
+          <li>Commercial mycology operations scaling cultivation for clinical supply</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap">
+    <p>
+      <strong>Crowe Psychedelics</strong> is a division of Crowe Logic, Inc.<br/>
+      Platform built on CriOS Nova (proprietary) and Logic Foundry (proprietary).<br/>
+      All platform outputs are AI-drafted and require expert human review.
+      Agent reports are scoping aids, not independently validated scientific
+      or legal conclusions. Reg-pack artifacts must be reviewed by DEA-registered
+      counsel before any DEA submission.
+    </p>
+    <p class="fine">
+      © 2026 Crowe Logic, Inc. All rights reserved. Not medical advice. Not legal advice.
+    </p>
+  </div>
+</footer>
+
+</body>
+</html>
