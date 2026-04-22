@@ -2,7 +2,7 @@
 
 **Protocol title:** Structure-activity relationships of 5-HT2A agonist tryptamines: receptor binding, functional selectivity, and analytical characterization
 
-**Principal Investigator:** Michael B. Crowe, PhD
+**Principal Investigator:** Michael B. Crowe, 
 **Institution:** Crowe Logic, Inc.
 
 ---
@@ -79,8 +79,8 @@ per the SOPs in this packet:
 
 ### Responsible Individual (DEA registrant)
 
-Michael B. Crowe, PhD —
-Founder and Chief Scientific Officer, Crowe Logic, Inc..
+Michael B. Crowe,  —
+Founder and Chief Mycologist, Crowe Logic, Inc..
 
 [LEGAL REVIEW] DEA strongly recommends designating an Alternate
 Responsible Individual so continuity of authorized access is maintained

@@ -9,7 +9,7 @@ Springfield, VA 22152
 
 **Re:** Application for DEA Schedule I Researcher Registration
 **Applicant:** Crowe Logic, Inc.
-**Principal Investigator:** Michael B. Crowe, PhD
+**Principal Investigator:** Michael B. Crowe, 
 **Facility:** Crowe Logic Psychedelic Research Laboratory
 
 ---
@@ -46,17 +46,17 @@ animal administration is authorized under this registration.
 
 ## Principal Investigator
 
-Michael B. Crowe, PhD, serves as the
+Michael B. Crowe, , serves as the
 Principal Investigator and Responsible Individual for this registration.
-Michael is Founder and Chief Scientific Officer at
+Michael is Founder and Chief Mycologist at
 Crowe Logic, Inc..
 
 Relevant qualifications:
 
-- 15+ years experience in mycology, fungal secondary metabolite biosynthesis, and biological computing
-- Founder, Southwest Mushrooms (commercial mycology operation, est. 2018)
-- Principal architect, CriOS Nova chemoinformatics platform
-- Author, The Mushroom Grower (two-volume reference)
+- Self-taught mycologist with 15+ years of applied field experience
+- Founder and operator, Southwest Mushrooms (commercial mycology operation, est. 2018)
+- Author, The Mushroom Grower, Volumes 1 and 2 (reference work on cultivation)
+- Principal architect, CriOS Nova chemoinformatics platform and the Crowe Logic agent framework
 - No prior DEA registration violations or disciplinary actions
 
 
@@ -93,7 +93,7 @@ the packet `00_README.md`:
 For questions regarding this application, please contact:
 
 Michael B. Crowe
-Founder and Chief Scientific Officer
+Founder and Chief Mycologist
 Crowe Logic, Inc.
 Email: michael@crowelogic.com
 Phone: +1-480-322-5761
@@ -103,7 +103,7 @@ Sincerely,
 <br><br>
 
 _________________________________
-Michael B. Crowe, PhD
+Michael B. Crowe, 
 Principal Investigator
 
 ---

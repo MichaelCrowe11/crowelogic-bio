@@ -1,0 +1,174 @@
+{
+  "species": [
+    {
+      "id": "PS-001",
+      "scientific_name": "Psilocybe cubensis",
+      "common_names": [
+        "Golden Top",
+        "Mexican Mushroom",
+        "San Isidro"
+      ],
+      "psilocybin": 0.835,
+      "psilocin": 0.525,
+      "baeocystin": 0.035,
+      "norbaeocystin": 0.01,
+      "difficulty": "beginner",
+      "native_range": "Subtropical Americas, Southeast Asia, Australia",
+      "fruiting_temp_c": [
+        22,
+        26
+      ]
+    },
+    {
+      "id": "PS-002",
+      "scientific_name": "Psilocybe semilanceata",
+      "common_names": [
+        "Liberty Cap"
+      ],
+      "psilocybin": 1.385,
+      "psilocin": 0.095,
+      "baeocystin": 0.38,
+      "norbaeocystin": 0.075,
+      "difficulty": "expert (often considered uncultivable indoors)",
+      "native_range": "Europe, northern North America, New Zealand",
+      "fruiting_temp_c": [
+        10,
+        15
+      ]
+    },
+    {
+      "id": "PS-003",
+      "scientific_name": "Psilocybe cyanescens",
+      "common_names": [
+        "Wavy Cap"
+      ],
+      "psilocybin": 1.31,
+      "psilocin": 0.88,
+      "baeocystin": 0.195,
+      "norbaeocystin": 0.05,
+      "difficulty": "intermediate to advanced (long timeline)",
+      "native_range": "Pacific Northwest (WA/OR/BC), Western Europe, New Zealand",
+      "fruiting_temp_c": [
+        10,
+        15
+      ]
+    },
+    {
+      "id": "PS-004",
+      "scientific_name": "Psilocybe azurescens",
+      "common_names": [
+        "Azzies",
+        "Flying Saucer Mushroom"
+      ],
+      "psilocybin": 1.45,
+      "psilocin": 0.4,
+      "baeocystin": 0.21,
+      "norbaeocystin": 0.04,
+      "difficulty": "advanced (outdoor bed pays off in year 2+)",
+      "native_range": "Oregon coast (endemic narrow range)",
+      "fruiting_temp_c": [
+        4,
+        15
+      ]
+    },
+    {
+      "id": "PS-005",
+      "scientific_name": "Psilocybe mexicana",
+      "common_names": [
+        "Teonan\u00e1catl (in part)",
+        "Pajaritos"
+      ],
+      "psilocybin": 0.56,
+      "psilocin": 0.325,
+      "baeocystin": 0.035,
+      "norbaeocystin": 0.01,
+      "difficulty": "beginner-intermediate (sclerotia path is very forgiving)",
+      "native_range": "Central Mexico highlands (Oaxaca, Puebla, Veracruz)",
+      "fruiting_temp_c": [
+        21,
+        24
+      ]
+    },
+    {
+      "id": "PS-006",
+      "scientific_name": "Psilocybe baeocystis",
+      "common_names": [
+        "Bottle Cap",
+        "Knobby Tops",
+        "Blue Bells"
+      ],
+      "psilocybin": 0.5,
+      "psilocin": 0.295,
+      "baeocystin": 0.55,
+      "norbaeocystin": 0.05,
+      "difficulty": "advanced (poorly characterized for cultivation)",
+      "native_range": "Pacific Northwest (Oregon to British Columbia)",
+      "fruiting_temp_c": [
+        10,
+        15
+      ]
+    }
+  ],
+  "strains": [
+    {
+      "id": "ST-001",
+      "name": "Golden Teacher",
+      "parent_species_id": "PS-001",
+      "psilocybin_mult": 1.0,
+      "psilocin_mult": 1.0,
+      "baeocystin_mult": 1.0,
+      "origin": "Unknown; first described in cultivation community mid-1980s",
+      "difficulty": "high (forgiving of environmental swings)"
+    },
+    {
+      "id": "ST-002",
+      "name": "B+",
+      "parent_species_id": "PS-001",
+      "psilocybin_mult": 1.0,
+      "psilocin_mult": 1.0,
+      "baeocystin_mult": 1.0,
+      "origin": "Attributed to 'Mr. G' in the 1990s; parentage debated",
+      "difficulty": "very high (exceptionally forgiving)"
+    },
+    {
+      "id": "ST-003",
+      "name": "Penis Envy",
+      "parent_species_id": "PS-001",
+      "psilocybin_mult": 1.6,
+      "psilocin_mult": 1.8,
+      "baeocystin_mult": 1.2,
+      "origin": "Isolated by Stephen Pollock in the 1970s from Terence McKenna's Amazonian collection",
+      "difficulty": "intermediate (slower pinning, genetic drift risk)"
+    },
+    {
+      "id": "ST-004",
+      "name": "Albino A+",
+      "parent_species_id": "PS-001",
+      "psilocybin_mult": 1.25,
+      "psilocin_mult": 1.3,
+      "baeocystin_mult": 1.0,
+      "origin": "Released into circulation ~2002; derived from PF Albino lineage",
+      "difficulty": "high"
+    },
+    {
+      "id": "ST-005",
+      "name": "Tidal Wave",
+      "parent_species_id": "PS-001",
+      "psilocybin_mult": 2.4,
+      "psilocin_mult": 2.8,
+      "baeocystin_mult": 1.5,
+      "origin": "Developed by MagicMyco \u2014 cross of Penis Envy \u00d7 B+ (~2020)",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "ST-006",
+      "name": "Treasure Coast",
+      "parent_species_id": "PS-001",
+      "psilocybin_mult": 0.9,
+      "psilocin_mult": 0.85,
+      "baeocystin_mult": 1.1,
+      "origin": "Isolated from wild collections on the Florida Treasure Coast (late 1990s)",
+      "difficulty": "high"
+    }
+  ]
+}

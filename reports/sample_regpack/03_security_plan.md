@@ -162,7 +162,7 @@ The reviewed-and-approved date shall be documented on this cover sheet.
 
 ---
 
-**Prepared by:** Michael B. Crowe, PhD
+**Prepared by:** Michael B. Crowe, 
 **Date:** 2026-04-21
 
 **Signature:** _________________________________  **Date:** ____________

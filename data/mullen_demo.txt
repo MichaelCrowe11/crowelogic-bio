@@ -1,0 +1,46 @@
+# DRAFT — NOT FOR SUBMISSION WITHOUT COUNSEL REVIEW
+
+# DEA Schedule I Researcher Registration Pathway
+## In Vitro Characterization of Psilocybin Analogs — Phoenix, AZ Facility
+
+**Prepared for:** [Startup Name Redacted]
+**Date:** [Draft Date]
+**Author:** Dr. Catherine Mullen, PhD — Regulatory Science, Controlled Substances
+
+---
+
+## 1. REGISTRATION TYPE: RESEARCHER vs. ANALYTICAL LABORATORY
+
+This is the first fork in the road, and it matters more than most applicants realize.
+
+### 1A. The Two Relevant Registration Categories
+
+DEA issues Schedule I registrations under two primary activity codes relevant here:
+
+| Activity Code | DEA Form | Governing CFR | Typical Registrant |
+|---|---|---|---|
+| **Schedule I Researcher** (Activity Code "C") | **DEA Form 225** | 21 CFR 1301.11(a), 1301.13, 1301.18 | Academic labs, pharma sponsors, CROs conducting pharmacological research |
+| **Analytical Laboratory** (Activity Code "L") | **DEA Form 225** (same form, different box) | 21 CFR 1301.11(a), 1301.13(e)(1)(iv) | Forensic labs, reference-standard testing, quality-control assays |
+
+### 1B. Recommendation: Register as Schedule I Researcher (Activity Code C)
+
+**Rationale:**
+
+Your described work — receptor binding assays and analytical chemistry on psilocybin analogs — is **pharmacological research**, not mere identity or purity testing of known substances. You are characterizing novel structural analogs for their receptor binding profiles. This is scientific investigation, not quality-control analytics.
+
+The analytical laboratory registration is narrowly scoped. Per 21 CFR 1301.13(e)(1)(iv), it contemplates activities like forensic identification, reference standard verification, and method validation on substances whose pharmacological profile is already established. DEA has historically scrutinized analytical-lab registrants who drift into pharmacological characterization, treating it as an unauthorized expansion of registration scope. The MAPS PBC early-stage programs and the Johns Hopkins Center for Psychedelic and Consciousness Research both hold researcher registrations for in vitro and preclinical work of the type you describe.
+
+**Bottom line:** File as a Schedule I Researcher. It is the broader, safer registration. If you register as an analytical lab and a DEA investigator during pre-registration inspection determines your receptor binding assays constitute "research," your application gets kicked back and you restart the clock.
+
+> **[LEGAL REVIEW]** Confirm with outside counsel that the specific assay portfolio (receptor binding panels, SAR studies on analogs) aligns with DEA's interpretation of "research" under 21 CFR 1301.18. If any analogs are not themselves explicitly scheduled but are structurally similar to psilocybin/psilocin, counsel must also assess Federal Analog Act (21 USC 813) exposure — addressed in Section 1C below.
+
+### 1C. Critical Threshold Issue: The Federal Analog Act and Your Analogs
+
+This is the sleeper issue that will shape the scope of your registration.
+
+Under **21 USC 813** (Federal Analog Act), a substance that is:
+
+1. **Substantially similar in chemical structure** to a Schedule I or II controlled substance, **AND**
+2. Has a stimulant, depressant, or hallucinogenic effect **substantially similar** to such a substance, **OR** is represented as having such an effect
+
+…is treated **as a Schedule I substance** for purposes of federal law, provided it is **intended for human consumption**. The "intended for human con

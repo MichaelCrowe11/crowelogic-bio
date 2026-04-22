@@ -1,7 +1,7 @@
 # DEA Schedule I Registration Packet — DRAFT
 
 **Applicant:** Crowe Logic, Inc.
-**Principal Investigator:** Michael B. Crowe, PhD
+**Principal Investigator:** Michael B. Crowe, 
 **Facility:** Crowe Logic Psychedelic Research Laboratory
 **Generated:** 2026-04-21
 **Tool:** Crowe Psychedelics lfpsy reg-pack

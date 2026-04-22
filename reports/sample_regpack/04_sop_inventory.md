@@ -18,7 +18,7 @@ dispensed, and destroyed at this facility.
 
 Applies to all personnel authorized to handle Schedule I substances at
 Crowe Logic Psychedelic Research Laboratory under DEA registration issued to
-Michael B. Crowe, PhD.
+Michael B. Crowe, .
 
 ## 3. Responsibilities
 

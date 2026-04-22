@@ -55,8 +55,8 @@
 | Form 225 field | Source value |
 |---|---|
 | Name | Michael B. Crowe |
-| Title | Founder and Chief Scientific Officer |
-| Degrees | PhD |
+| Title | Founder and Chief Mycologist |
+| Degrees |  |
 | Institution | Crowe Logic, Inc. |
 | Email | michael@crowelogic.com |
 | Phone | +1-480-322-5761 |

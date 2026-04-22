@@ -1,0 +1,56 @@
+## Proposal 1: 4-MeO-N-methyl-N-isopropyltryptamine ("MiPMeOT")
+
+### 1. Structure
+
+```
+SMILES: COc1cccc2[nH]cc(CCN(C)C(C)C)c12
+Shorthand: 4-MeO-MiPT (methyl-isopropyl variant at 4-OMe)
+```
+
+**MW:** 260.4 | **cLogP:** 2.3 | **HBD:** 1 (NH) | **HBA:** 2 (OMe O, amine N) | **LE (est.):** ~0.45 kcal/mol/heavy atom (at Ki 15 nM)
+
+### 2. Rationale
+
+**Scaffold choice — 4-methoxy tryptamine core:**
+- 4-OMe tryptamines are well-validated 5-HT2A agonists. The methoxy group occupies the same hydrogen-bonding zone as psilocin's 4-OH but with **reduced 5-HT2C affinity** because the 2C receptor S5.43 residue forms a stronger H-bond with 4-OH than 4-OMe donors [PMID:27816818]. This is a known SAR principle: 4-OMe reduces 2C affinity relative to 4-OH by roughly 5–15-fold in the Nichols tryptamine series.
+
+**N,N-methyl-isopropyl (MiPT) substitution pattern:**
+- The **asymmetric N,N-dialkyl** pattern is critical. From the Shulgin/Nichols literature, N-isopropyl introduces steric bulk that is **well-tolerated by 5-HT2A** (the receptor has a capacious vestibule above D3.32 in the Kim et al. active state structure [PMID:32699011]) but **poorly tolerated by 5-HT2B**, where the more constricted TM3-ECL2 interface clashes with branched alkyl groups [PMID:28129538, cf. ergotamine vs. DMT binding modes in 5-HT2B].
+- The N-methyl group is retained to maintain basicity (pKa ~9.5) and the critical salt bridge to D3.32.
+- Precedent: 5-MeO-MiPT (known compound) has Ki ~3 nM at 5-HT2A but poor 2A/2C selectivity because the **5-methoxy** position enhances 2C binding. Moving the methoxy to the **4-position** is predicted to restore 2A selectivity.
+
+**Crystal structure pose rationale (PDB 6WHA, 5-HT2A active state):**
+- The 4-OMe group points toward S5.46 and the extracellular face of TM5, forming a weak H-bond acceptor interaction. In 5-HT2A, this region has a glycine at 5.42 (G5.42) that creates space; in 5-HT2C, the corresponding residue is slightly bulkier, penalizing 4-OMe.
+- The N-isopropyl group extends toward TM6/ECL2, where 5-HT2A has L6.58 (accommodating) vs. 5-HT2B's more restrictive W6.58-adjacent residue environment.
+
+**MAO resistance and half-life:**
+- N,N-dialkyl tryptamines with at least one branched chain (iPr) are **poor MAO-A substrates** because the branched alkyl sterically hinders the MAO-A active site [Nichols 2016, PMID:27816818]. Predicted t½: 2.5–3.5 h (interpolated from 5-MeO-MiPT human PK reports, which show ~3 h duration of subjective effects suggesting comparable metabolic clearance).
+
+### 3. Predicted Ki Values
+
+| Receptor | Predicted Ki | Basis of Interpolation |
+|----------|-------------|----------------------|
+| **5-HT2A** | **~12–18 nM** | 4-HO-MiPT (miprocin) Ki ~15 nM at 2A [Nichols]; 4-OMe expected within 0.7–1.3× of 4-OH at 2A |
+| **5-HT2C** | **~600–1200 nM** | 4-OMe reduces 2C affinity ~10-fold vs 4-OH; 4-HO-MiPT Ki ~80–120 nM at 2C → 4-OMe-MiPT ~800–1200 nM. **⚠️ SPECULATIVE** — this is the weakest part of the prediction; 2C selectivity may be only 30–50-fold |
+| **5-HT2B** | **~3000–8000 nM** | iPr branching strongly penalizes 2B binding; DMT Ki ~200 nM at 2B, but N-iPr analogs show >50-fold drop [inferred from Shulgin series]; 4-OMe further disfavors 2B |
+
+**Confidence:** Medium-high for 2A, medium for 2C (need empirical confirmation), high for 2B.
+
+### 4. ADMET Concerns
+
+| Concern | Risk Level | Mitigation |
+|---------|-----------|------------|
+| **CYP2D6 O-demethylation** → 4-OH metabolite (psilocin-like) | Moderate | Active metabolite would have higher 2C affinity; could deuterate OMe (CD₃O-) — flag for Dr. Volkova (md_014) collaboration on deuteration |
+| **hERG** | Low | MW < 300, low cLogP, no planar aromatic extension |
+| **BBB penetration** | Good | cLogP 2.3, MW 260, 1 HBD, PSA ~33 Å² — CNS MPO score ~5.2 (favorable) |
+| **Phospholipidosis** | Low | Not di-cationic, low Vd expected |
+| **Ames/Genetic tox** | Low-Mod | Indole core is generally clean, but N-iPr metabolic N-dealkylation to primary amine should be monitored |
+
+### 5. Freedom-to-Operate
+
+- **4-OMe-MiPT** itself may be described in Shulgin's TiHKAL (1997) — need to confirm if specific compound is disclosed. If so, it would be prior art, which is actually **favorable** for FTO (not patentable by others) but **unfavorable** for composition-of-matter claims.
+- **Compass Pathways** (WO2020/212948) claims certain 4-substituted tryptamines but focuses on psilocybin/psilocin prodrugs. The N-iPr,N-Me combination at 4-OMe may be outside their claims. **Needs formal FTO search.**
+- **Usona Institute** patents focus on psilocybin polymorph forms, unlikely to cover this compound.
+- **⚠️ Flag:** Several broad tryptamine patent families (e.g., WO2021/137149, Gilgamesh Pharmaceuticals) claim N,N-disubstituted-4-substituted tryptamines generically. Could be problematic — recommend detailed claim charting.
+
+---
