@@ -1,5 +1,5 @@
-/* Crowe Psychedelics landing page — live widgets.
-   No framework. No innerHTML on dynamic content — all DOM nodes
+/* Crowe Psychedelics landing page , live widgets. Safe
+   No framework. No innerHTML on dynamic content. all DOM nodes
    constructed via `h()` with text children, so there is no XSS surface
    even though all data sources are local static JSON. */
 "use strict";
@@ -7,7 +7,7 @@
 const $  = (sel, root = document) => root.querySelector(sel);
 const $$ = (sel, root = document) => [...root.querySelectorAll(sel)];
 
-/* h(tag, attrs, ...children) — safe DOM builder. Children are always
+/* h(tag, attrs, ...children) , safe DOM builder. Children are always
    appended as nodes (text or element); strings become text nodes. */
 const h = (tag, attrs = {}, ...children) => {
   const el = document.createElement(tag);
@@ -85,7 +85,7 @@ const clear = el => { while (el.firstChild) el.removeChild(el.firstChild); };
   // Populate select
   clear(sel);
   for (const c of data) {
-    sel.append(h("option", { value: c.id }, `${c.name}  —  ${c.class || ""}`));
+    sel.append(h("option", { value: c.id }, `${c.name}, ${c.class || ""}`));
   }
 
   const kiToWidth = v => {
@@ -114,7 +114,7 @@ const clear = el => { while (el.firstChild) el.removeChild(el.firstChild); };
         h("div", {},
           h("h4", { class: "cp-name" }, c.name),
           h("div", { class: "cp-meta" },
-            `${c.id}  ·  ${c.formula || ""}  ·  MW ${c.mw ? c.mw.toFixed(2) : "—"}`)
+            `${c.id}, ${c.formula || ""}, MW ${c.mw ? c.mw.toFixed(2) : "n/a"}`)
         ),
         pills
       )
@@ -132,7 +132,7 @@ const clear = el => { while (el.firstChild) el.removeChild(el.firstChild); };
             h("span", { class: "rec-name" }, a.receptor || ""),
             h("div", { class: "rec-bar" }, fill),
             h("span", { class: "rec-val" },
-              `${a.assay || "Ki"} ${a.value_nm ? a.value_nm.toLocaleString() : "—"} nM`)
+              `${a.assay || "Ki"} ${a.value_nm ? a.value_nm.toLocaleString() : "n/a"} nM`)
           )
         );
       }
@@ -144,11 +144,11 @@ const clear = el => { while (el.firstChild) el.removeChild(el.firstChild); };
     const metBlock = h("div", { class: "cp-block" },
       h("h4", {}, "Metabolism & half-life"),
       h("ul", {},
-        h("li", {}, h("strong", {}, "Primary enzyme: "), c.primary_enzyme || "—"),
-        h("li", {}, h("strong", {}, "Primary metabolite: "), c.primary_metabolite || "—"),
+        h("li", {}, h("strong", {}, "Primary enzyme: "), c.primary_enzyme || "n/a"),
+        h("li", {}, h("strong", {}, "Primary metabolite: "), c.primary_metabolite || "n/a"),
         c.prodrug_of ? h("li", {}, h("strong", {}, "Prodrug of: "), c.prodrug_of) : null,
         h("li", {}, h("strong", {}, "Half-life: "),
-          c.half_life_hours ? `${c.half_life_hours} h (${c.half_life_route || "—"})` : "—"),
+          c.half_life_hours ? `${c.half_life_hours} h (${c.half_life_route || "n/a"})` : "n/a"),
       ),
       h("h4", { style: "margin-top:14px;" }, "Natural source"),
       h("p", {}, c.natural_source || "synthetic"),
@@ -157,7 +157,7 @@ const clear = el => { while (el.firstChild) el.removeChild(el.firstChild); };
             h("strong", {}, "Breakthrough Therapy: "), c.fda_indication || "",
             h("br"),
             h("span", { style: "color:var(--ink-soft);font-size:13px;" },
-              `Sponsor: ${c.fda_sponsor || "—"}`))
+              `Sponsor: ${c.fda_sponsor || "n/a"}`))
         : null
     );
 
@@ -257,7 +257,7 @@ const clear = el => { while (el.firstChild) el.removeChild(el.firstChild); };
           h("div", {},
             h("div", { class: "cul-rank" }, `#${i + 1}`),
             h("div", { class: "cul-name" },
-              h("em", {}, c.name), c.sub ? `  —  ${c.sub}` : "")
+              h("em", {}, c.name), c.sub ? `. ${c.sub}` : "")
           ),
           h("div", { class: "cul-score" }, String(Math.round(c.score)))
         ),
@@ -265,7 +265,7 @@ const clear = el => { while (el.firstChild) el.removeChild(el.firstChild); };
           h("span", {}, `psilocybin ${c.expected.psilocybin.toFixed(2)}%`),
           h("span", {}, `psilocin ${c.expected.psilocin.toFixed(2)}%`),
           h("span", {}, `baeocystin ${c.expected.baeocystin.toFixed(2)}%`),
-          h("span", {}, `· ${c.difficulty || "—"}`)
+          h("span", {}, `${c.difficulty || "n/a"}`)
         )
       ));
     });
