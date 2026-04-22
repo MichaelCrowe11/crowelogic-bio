@@ -2,7 +2,7 @@
 
 **Agent:** `psy_reg_001` — Dr. Catherine Mullen, PhD in Regulatory Science — Controlled Substances
 **Division:** psychedelic_specialist
-**Backend:** CroweLM Supreme (Claude Opus via Azure AI Foundry)
+**Backend:** CroweLM, Crowe Logic's domain-specialized language model
 **Date:** 2026-04-21
 
 ## Query

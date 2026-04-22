@@ -2,7 +2,7 @@
 
 **Agent:** `psy_pharm_001` — Dr. Evelyn Nakamura, PhD in Psychedelic Medicinal Chemistry
 **Division:** psychedelic_specialist
-**Backend:** CroweLM Supreme (Claude Opus via Azure AI Foundry)
+**Backend:** CroweLM, Crowe Logic's domain-specialized language model
 **Date:** 2026-04-21
 
 ## Query
